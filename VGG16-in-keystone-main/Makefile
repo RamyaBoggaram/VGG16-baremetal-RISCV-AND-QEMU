@@ -1,4 +1,4 @@
-CXX=clang++
+CXX=/opt/riscv/bin/riscv64-unknown-linux-gnu-c++
 CXXFLAGS=-Iobjs/ -O3 -std=c++17 -Wall -fopenmp 
 
 APP_NAME=vgg16
