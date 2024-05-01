@@ -1,5 +1,5 @@
 # VGG16-baremetal-RISCV-AND-QEMU
-These are the steps to build vgg16 in baremetal RISCV and QEMU configurations.
+These are the steps to build vgg16 in baremetal RISCV and QEMU configurations. To build the toolchains in local machines follow: https://github.com/RamyaBoggaram/Baremetal-RISCV-and-QEMU-setup-using-ubuntu-server
 # 1. Build baremetal binary
 ```
 cd directory_name
