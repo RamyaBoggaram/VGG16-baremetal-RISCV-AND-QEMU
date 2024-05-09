@@ -14,11 +14,11 @@ or
 ```
 qemu-system-riscv64 -machine virt -nographic -m 2048 -smp 4 -bios /usr/lib/riscv64-linux-gnu/opensbi/generic/fw_jump.bin -kernel /usr/lib/u-boot/qemu-riscv64_smode/uboot.elf -netdev user,id=net0,hostfwd=tcp::5555-:22 -device virtio-net-device,netdev=net0 -device virtio-rng-pci -drive file=img/ubuntu-22.04.4-preinstalled-server-riscv64+unmatched.img,format=raw,if=virtio
 ```
-# 4. Upload binary
+# 3. Upload binary
 ```
 scp  -P 5555 ./vgg16 ubuntu@localhost:~/
 ```
-# 5. Inside the server after uploading the binary run the binary using
+# 4. Inside the server after uploading the binary run the binary using
 ```
 ./vgg16
 ```
